@@ -19,8 +19,9 @@ if ( is_admin() ) {
 	if ( ! class_exists( '\Mint\Singleton' ) ) {
 		include __DIR__ . '/class-mint-singleton.php';
 	}
-	include __DIR__ . '/class-mint-cloud-editor.php';
-	\Mint\Cloud\Editor\Google\Doc::get_instance();
+	include __DIR__ . '/class-mce-google-auth.php';
+	include __DIR__ . '/class-mce-google-drive.php';
+	\Mint\Cloud\Editor\Google\Auth::get_instance();
 }
 
 //EOF

@@ -1,7 +1,7 @@
 <?php
 namespace Mint\Cloud\Editor\Google;
 use \Mint as Mint;
-class Doc extends Mint\Singleton {
+class Drive extends Mint\Singleton {
 
 	/**
 	 * Initialization function called when object is instantiated
