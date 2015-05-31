@@ -18,7 +18,6 @@ Replaces the default WordPress post editor with Google Docs.
 1. Use Cloud9 as file editor
 
 # Installation
-1. Requires the [Keyring](https://wordpress.org/plugins/keyring/) plugin.
 1. Log in to the [Google Developers Console](https://console.developers.google.com/project) and create a new project
 1. Enable Drive API access in your project
 1. Go to `Credentials` and `Create a new Client ID` under `OAuth`. Choose `Web Application` as your Application Type.

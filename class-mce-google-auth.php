@@ -13,7 +13,6 @@ class Auth extends Mint\Singleton {
 	 */
 	protected function _init() {
 		add_action( 'admin_notices', array( $this, 'settings_notice' ) );
-		add_action( 'admin_notices', array( $this, 'dependencies_notice' ) );
 		add_action( 'init', array( $this, 'load_textdomain' ) );
 	}
 
@@ -24,30 +23,6 @@ class Auth extends Mint\Singleton {
 	public function load_textdomain() {
 		$textdomain_path = dirname( plugin_basename( MCE_BASE_PATH ) ) . '/languages/';
 		load_plugin_textdomain( 'mint-cloud-editor', false, $textdomain_path );
-	}
-
-	/**
-	 * Shows admin notice letting users know that the Keyring plugin needs to be installed
-	 */
-	public function dependencies_notice() {
-		if ( class_exists( 'Keyring' ) ) {
-			return;
-		}
-
-		// @todo Maybe add a "contact your administrator" message to enable dependency
-		if ( is_multisite() ) {
-			if ( ! current_user_can( 'manage_network_plugins' ) ) {
-				return;
-			}
-		} else if ( ! current_user_can( 'manage_plugins' ) ) {
-			return;
-		}
-
-		$settings_notice = sprintf( __( 'Mint Cloud Editor requires the <a href="%1$s">Keyring</a> plugin.', 'mint-cloud-editor' ),
-			'https://wordpress.org/plugins/keyring/'
-		);
-
-		echo '<div class="update-nag"><p>' . $settings_notice . '</p></div>';
 	}
 
 	/**
