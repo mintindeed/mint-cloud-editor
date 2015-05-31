@@ -2,7 +2,7 @@ Mint Cloud Editor
 ============================
 Replaces the default WordPress post editor with Google Docs.
 
-* Requires PHP 5.3 or greater
+* Requires PHP 5.4 or greater
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,9 +25,11 @@ Replaces the default WordPress post editor with Google Docs.
 
 
 
-
+# Links
 1. [Use the Drive Badge and Brand](https://developers.google.com/drive/web/branding)
 1. [WordPress Logos and Graphics](https://wordpress.org/about/logos/)
 1. Use [ngrok](https://ngrok.com/) for testing OAuth on your local environment
+1. [OAuth 2 Simplified](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified)
 
-https://github.com/cristibalan/braid
+# Credits
+1. The PHP League's [OAuth2 Client 0.11.0](https://github.com/thephpleague/oauth2-client/tree/0.11.0)
