@@ -1,5 +1,5 @@
 <?php
-namespace Mint\Editor\Google;
+namespace Mint\Cloud\Editor\Google;
 use \Mint as Mint;
 class Doc extends Mint\Singleton {
 

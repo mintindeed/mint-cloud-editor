@@ -1,0 +1,33 @@
+# Copyright (C) 2015 Mint Cloud Editor
+# This file is distributed under the same license as the Mint Cloud Editor package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Mint Cloud Editor 0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/mint-cloud-editor\n"
+"POT-Creation-Date: 2015-05-31 21:08:19+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: class-mint-cloud-auth.php:40
+msgid "Mint Cloud Editor requires you to <a href=\"%1$s\">configure it</a>."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Mint Cloud Editor"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/mintindeed/mint-cloud-editor"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Replaces the default WordPress post editor with Google Docs."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Gabriel Koen"
+msgstr ""
