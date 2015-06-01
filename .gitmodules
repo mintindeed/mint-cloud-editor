@@ -1,3 +1,0 @@
-[submodule "vendor/thephpleague/oauth2-client"]
-	path = vendor/thephpleague/oauth2-client
-	url = git@github.com:thephpleague/oauth2-client.git
