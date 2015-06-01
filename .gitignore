@@ -16,5 +16,10 @@ nbproject/
 # Compass/SASS/SCSS
 .sass-cache
 
-# Composer cruft
+# Composer, build, and test cruft
 vendor/composer/install*
+composer.lock
+tests/
+docs/
+phing/
+phpunit*
