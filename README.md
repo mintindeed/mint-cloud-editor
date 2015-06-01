@@ -3,6 +3,7 @@ Mint Cloud Editor
 Replaces the default WordPress post editor with Google Docs.
 
 * Requires PHP 5.4 or greater
+* Requires Composer
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,10 +19,10 @@ Replaces the default WordPress post editor with Google Docs.
 1. Use Cloud9 as file editor
 
 # Installation
+1. Run composer update in the plugin directory, e.g. `composer update --no-dev --optimize-autoloader`
 1. Log in to the [Google Developers Console](https://console.developers.google.com/project) and create a new project
 1. Enable Drive API access in your project
 1. Go to `Credentials` and `Create a new Client ID` under `OAuth`. Choose `Web Application` as your Application Type.
-1.
 
 
 

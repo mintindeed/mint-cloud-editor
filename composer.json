@@ -1,0 +1,21 @@
+{
+	"name": "mintindeed/mint-cloud-editor",
+    "description": "Replaces the default WordPress post editor with Google Docs",
+    "authors": [
+        {
+            "name": "Gabriel Koen",
+            "email": "gabriel.koen@gmail.com"
+        }
+    ],
+    "license": "GPLv2",
+	"type": "wordpress-plugin",
+	"require": {
+		"php": ">=5.4.0",
+		"league/oauth2-client": "~0.11"
+	},
+	"autoload": {
+		"psr-4": {
+			"Mint\\": "classes/"
+		}
+	}
+}
