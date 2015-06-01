@@ -1,0 +1,20 @@
+# Version control
+.svn
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.buildpath
+.project
+.settings/
+.build/
+.idea/
+nbproject/
+
+# Compass/SASS/SCSS
+.sass-cache
+
+# Composer cruft
+vendor/composer/install*
